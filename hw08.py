@@ -44,7 +44,7 @@ def shape_to_matrix(shape):
 
     points = []
 
-    # put them before ebcasue after transpose itll be at the bottomn
+    # put them before becasue after transpose itll be at the bottomn
     for p1, p2 in shape:
         tuple1 = (p1 + (1,))
         points.append(tuple1)
