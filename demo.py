@@ -95,7 +95,7 @@ guide_axes = [[(-0.75, 0, 0), (0.75, 0, 0)],
 shapes = {'cube': guide_axes + cube,
           'pyramid': guide_axes + pyramid,
           'wheel': guide_axes + wheel,
-          extra_credit_name: guide_axes + extra_credit_shape}
+          custom_shape_name: guide_axes + custom_shape_name}
 
 # the shape being viewed
 base_shape = shapes['cube']
