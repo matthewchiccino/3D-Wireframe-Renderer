@@ -1,5 +1,5 @@
 import numpy as np
-from custom_shape import custom_shape
+from custom_wireframe import custom_shape
 
 # Notes:
 #
