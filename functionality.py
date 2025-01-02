@@ -28,7 +28,7 @@ def shape_to_matrix(shape):
     Parameters: shape (a list of line segments)
 
     Returns: 2D numpy array with shape (4, 2 * N) where N = len(shape)
-"""
+    """
 
     points = []
 
@@ -130,10 +130,7 @@ def matrix_to_shape(m):
 
       results.append((starting_pair, ending_pair))
 
-  
-
     return results
-
 
 def full_transform(x_tr, y_tr, z_tr, roll, pitch, yaw, shape):
     shape_as_matrix = shape_to_matrix(shape)
